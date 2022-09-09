@@ -79,7 +79,11 @@ function arrayContiene(array, elemento) {
 function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
-  // Tu código:
+  // Tu código: [5,10,3] --> [18]
+  let arrsuma = 0;
+  for(let i = 0; i < numeros.length ; i++){
+     arrsuma = arrsuma +numeros[i] ;
+  } return arrsuma ;
 }
 
 
@@ -87,6 +91,10 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  let arrProm = 0;
+  for(let i = 0; i < resultadosTest.length ; i++){
+     arrProm = arrProm +numeros[i] ;
+  } return arrProm / resultadosTest.length ;
 }
 
 
